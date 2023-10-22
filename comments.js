@@ -8,7 +8,7 @@ var cors = require('cors');
 app.use(cors());
 var comments = require('./comments.json');
 var path = require('path');
-var port = 3000;
+var port = 300;
 
 //test
 app.get('/', function(req, res) {
